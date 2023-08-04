@@ -58,7 +58,7 @@ describe('Automation Challenge 2', () => {
             expect(amount).to.eq(price * quantity)
             cy.wrap(amount).as('totalAmount') //save it for later use
         })
-    })
+      })
 
     // Go to the basket page
     cy.get('.amount').eq(0).click()
